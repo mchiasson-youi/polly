@@ -6,7 +6,7 @@ set(YI_PLATFORM_UPPER LINUX CACHE STRING "")
 # core/cmake/Platform/YiCoreLinux.cmake contents
 add_definitions(-DYI_LINUX=1)
 
-# cmake/Platform/YiOsx.cmake contents
+# cmake/Platform/YiLinux.cmake contents
 if(__yi_platform_included)
     return()
 endif()
